@@ -59,8 +59,7 @@ def opcion_retirar_dinero():
 
     print("\nRetiro exitoso ", retiro, "$")
     return retirar(retiro)
-    
-### Programa principal
+
 while True:
     menu()
     opcion = leerOpcion()
